@@ -48,6 +48,6 @@ rect(ground1.position.x,ground1.position.y,800,20)
 
 function keyPressed(){
 	if(keyCode===UP_ARROW){
-	Body.applyForce(box1.body,box1.body.position,{x:570, y: -220})
+	Body.applyForce(box1.body,box1.body.position,{x:570, y: -290})
 
 }}
